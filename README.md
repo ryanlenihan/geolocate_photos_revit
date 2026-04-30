@@ -6,6 +6,20 @@ The pattern applies to any domain where field photos need to be documented, geol
 
 ---
 
+## Demo
+
+The notebook uses this photo (taken on a phone with GPS enabled) to demonstrate the workflow:
+
+![Sample input photo](MVIMG_20260212_194030_small.jpg)
+
+After extracting GPS, transforming coordinates, and running image analysis, a marker is placed in Revit at the photo's real-world location with the LLM description attached:
+
+![Marker placed in Revit](placed_family.png)
+
+The marker's metadata (including the AI-generated description) appears in a Revit schedule:
+
+![Revit schedule with marker metadata](sample_schedule.png)
+
 ## What It Does
 
 1. **Extracts GPS coordinates** from photo EXIF metadata
